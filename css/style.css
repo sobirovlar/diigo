@@ -62,6 +62,7 @@ text-transform: uppercase;
     color: black;
     font-size: 2rem;
     font-weight: bold;
+    display: none;
 }
 .nav__logo{
     margin-left: 3rem;
