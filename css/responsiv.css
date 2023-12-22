@@ -1,0 +1,120 @@
+@media only screen and (max-width:768px) {
+    .header{
+        background-color: dodgerblue;
+        background-image: url(0);
+        height: 130vh;
+    }
+    .navbar_nav a{
+        display: none;
+    }
+    .navbar_nav i{
+        display: inline;
+color: rgb(0, 0, 0);
+margin-left: 12rem;
+}
+.nav__logo{
+  width: 100%;    
+}
+.nav__logo img{
+    width: 180px;
+}
+.banner__contact{
+    grid-template-columns: 100%;
+}
+.banner h1{
+    font-size: 1.6rem;
+    margin-top: -7rem;
+    line-height: 34px;
+}
+.banner .container{
+max-width: 97%;
+}
+.banner p{
+    margin-right: -80px;
+    font-size: 0.8rem;
+    line-height: 22px;
+    margin-top: 3rem;
+}
+.CLIENt .title h3{
+    font-size: 1.4rem;
+}
+.CLIENt .title h2{
+font-size: 2rem;
+}
+.CLIENt p{
+    font-size: 0.8rem;
+
+}
+.CLIENt .container{
+    max-width: 100%;
+    border: 1px solid red;
+}
+.CLIENt img{
+    width: 111%;
+    margin: 0 auto;
+}
+.CLIENt p{
+    font-size: 0.9rem;
+}
+.imegs{
+    display: none;
+}
+.Busines .title h2{
+    font-size: 2rem;
+}
+.Busines .title p{
+    font-size: 0.9rem;
+    opacity: 1;
+}
+.Busines .container{
+    max-width: 100%;
+}
+.Busines img{
+    width: 100%;
+}
+.busines__contact p{
+   margin-left: -2rem;
+   margin-right: -2rem;
+   line-height: 20px;
+}
+.test{
+    width: 95%;
+    background-color: dodgerblue;
+    background-image: url(0);
+    height: 100%;
+}
+.test__contact {
+    padding-top: 5rem;
+    grid-template-columns: 100%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 10px 10px 100px 10px ;
+}
+.test__contact p{
+    margin-right: -1rem;
+}
+.footer .title{
+margin: 0 auto;
+width: 96%;
+}
+.footer .container{
+    max-width: 96%;
+}
+.footer__contact{
+    width: 100%;
+}
+.footer button{
+    width: 35%;
+}
+.footer .imeg_{
+    display: none;
+}
+.footer .copyright{
+    margin-top: 3rem ;
+}
+.footer h2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 1.7rem;
+}
+}

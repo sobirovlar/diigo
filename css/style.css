@@ -1,0 +1,366 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Indie+Flower&family=Lilita+One&family=Open+Sans&family=Roboto+Mono:wght@500&family=Rubik+Doodle+Shadow&display=swap');
+
+:root{
+    --abril: 'Abril Fatface', serif;
+--indin: 'Indie Flower', cursive;
+--lilita: 'Lilita One', sans-serif;
+--sans: 'Open Sans', sans-serif;
+--robo: 'Roboto Mono', monospace;  
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+body{
+    background-image: url(/img/body_bg.png);
+}
+.header{
+    width: 100%;
+    height: 125vh;
+    background-image: url(/img/banner.png);
+    background-size: 100% 100%;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+a{
+    color: black;
+    font-family: var(--sans);
+    font-weight: bold;
+}
+img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.navigation{
+    width: 55%;
+    height: 13vh;
+    
+}
+.navbar{
+    height: 13vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar_nav a{
+font-size: 1.1rem;
+margin-left: 2rem;
+margin-right: 2rem;
+color: white;
+transition: all 0.4s linear;
+text-transform: uppercase;
+}
+.navbar_nav i{
+    color: black;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav__logo{
+    margin-left: 3rem;
+}
+.navbar_nav a:hover{
+    color: black;
+transition: all 0.4s linear;
+}
+.banner__contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr );
+    gap: 3rem   ;
+   margin-top: 12rem;
+}
+.banner__contact .item:first-of-type{
+    width: 75%;
+}
+.banner h1{
+    font-family: var(--lilita);
+    font-size: 3rem;
+    color: white;
+    line-height: 62px;
+}
+.banner p{
+    color: white;
+    line-height: 25px;
+    margin-top: 2rem;
+    font-family: var(--sans);
+    margin-bottom: 2rem;
+}
+.banner button{
+    padding: 15px 45px ;
+    font-size: 1.1rem;
+    color: rgb(77, 178, 255);
+    border: 0;
+    border-radius: 10px;
+    transition: all 0.6s linear;
+}
+.banner button:hover{
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+.CLIENt{
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+}
+.CLIENt .title{
+    text-align: center;
+    opacity: 0.8;
+    font-family: var(--lilita);
+    margin-top: 5rem;
+}
+.CLIENt .title h3{
+    color: rgb(53, 136, 252);
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    
+}
+.CLIENt .title h2{
+    font-size:2.5rem ;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.CLIENt .title p{
+    font-family: var(--sans);
+}
+.client_contact{
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    text-align: center;  
+}
+.client_contact p{
+   line-height: 24px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-bottom: 2rem;
+}
+.client_contact button{
+    padding: 15px 50px ;
+    transition: all 0.5s linear;
+    background-color: black;
+    font-size: 1.1rem;
+    border-radius: 15px;
+    color: white;
+    border: 0;
+    
+}
+.client_contact button:hover{
+    background-color: rgb(16, 163, 255);
+    transition: all 0.5s linear;
+    border-radius:30px ;
+}
+.CLIENt .imegs{
+   margin-top: -10rem;
+
+}
+.CLIENt .imegs img{
+    margin-left: 80%;
+    width: 20%;
+}
+.Busines{
+    width: 100% ;
+    height: 100%;
+}
+.Busines .title{
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 10rem;
+}
+.Busines .title h3{
+    color: rgb(53, 136, 252);
+    font-size: 1.9rem;
+    margin-bottom: 1rem;
+    font-family: var(--lilita);
+}
+.Busines .title h2{
+    font-size:2.5rem ;
+    margin-bottom: 1rem;
+    font-family: var(--lilita);
+}
+
+.busines__contact{
+    width: 80%;
+margin: 0 auto;
+    margin-top:8vh;
+    text-align: center;
+}
+.busines__contact img{
+    width: 40%;
+    margin: 0 auto;
+}
+.busines__contact p{
+margin-top: 2rem;
+opacity: 0.9;
+margin-bottom: 2rem;
+
+}
+.busines__contact button{
+    padding: 13px 40px ;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+    border: 0;
+    border-radius: 10px;
+    transition: all 0.5s linear;
+}
+.busines__contact button:hover{
+    border-radius: 30px     ;
+    background-color: dodgerblue;
+    transition: all 0.5s linear;
+
+}
+.test{
+    width: 70%;
+    height: 70vh;
+    background-image: url(/img/test.png);
+    background-size: 100% 100%;
+    margin:0 auto   ;
+    margin-top: 7rem;
+}
+.test .title h2{
+    text-align: center;
+    font-family: var(--lilita);
+    color: white;
+    font-size: 2.3rem;
+   padding-top: 70px;
+}
+.test__contact{
+   display: grid;
+   grid-template-columns: 30% 70%;
+   margin-top: 5rem;
+   color: white;
+}
+.test__contact img{
+    width: 45%;
+    margin-left: 5rem;
+    border: 10px solid rgb(226, 226, 226);
+    border-radius: 100%;
+}
+.test__contact img::before{
+    position: absolute;
+    content: "shsh";
+    width: 20px ;
+    height: 20px ;
+    border: 8px solid red;
+}
+.test__contact h3{
+    font-family: var(--sans);
+    margin-bottom: 1rem;
+}
+.test__contact p{
+    margin-right: 10rem;
+    line-height: 22px; 
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.footer .title{
+    text-align: center;
+    margin-top: 6rem;
+}
+.footer .title h2{
+    font-size: 2.2rem;
+    font-family: var(--lilita);
+    margin-bottom: 0.7rem;
+}
+.footer__contact{
+    width: 70%;
+    height: 100%;
+    border: 1px solid dodgerblue;
+    border-radius: 17px;
+    padding: 20px 20px 20px 20px ;
+    display: grid;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+}
+.footer input{
+    margin-top: 2.2rem;
+    border: 0;
+    outline: 0;   
+    background: 0;
+    border-bottom: 1px solid dodgerblue;
+    font-size: 1.1rem;
+    color: dodgerblue;
+}
+.footer textarea{
+    border: 0;
+    outline: 0;   
+    margin-top: 2rem;
+    background: 0;
+    border-bottom: 1px solid dodgerblue;
+    font-size: 1.1rem;
+}
+.footer__contact button{
+    padding: 13px 40px ;
+    width: 20%;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: 0;
+  margin-top: 2rem;
+  transition: all 0.5s linear;
+}
+.footer__contact button:hover{
+    background-color: dodgerblue;
+    transition: all 0.5s linear;
+    border-radius: 30px;
+
+}
+.footer h2{
+    color: dodgerblue;
+    margin-top: 2rem;
+    font-size: 1.8rem;
+    font-family: var(--robo);
+}
+.footer h3{
+    font-size: 1.8rem;
+    font-family: var(--robo);
+}
+.footer i{
+    border-radius: 100%;
+    color: dodgerblue;
+    box-shadow: 0 0 20px rgb(227, 227, 227);
+    padding: 13px 15px ;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    transition: all 0.5s linear;
+}
+.footer i:hover{
+    transition: all 0.5s linear;
+    background-color: black;
+    box-shadow: 0;
+}
+.imeg_{
+    overflow: hidden;
+    margin-top: -10rem;
+
+}
+.imeg_ img{
+    margin-left: 80%;
+    width: 20%;
+}
+.footer .copyright{
+    background-color: rgb(34, 143, 252);
+    height: 7vh;
+    color: white;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--sans);
+}
